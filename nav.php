@@ -15,6 +15,9 @@
         <li>
             <a href="https://christoferkrabbi24.thkit.ee" target="_blank">Originaalne index leht</a>
         </li>
+        <li>
+            <a href="?leht=gitiKasutamine">Giti käsud</a>
+        </li>
 
 
 
