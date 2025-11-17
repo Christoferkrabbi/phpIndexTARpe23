@@ -1,0 +1,6 @@
+git init - uus repo
+git config --global user.name "nimi perenimi"
+git config --global user.email "nimi perenimi"
+git config --global --list
+
+ssh võtme loomine
