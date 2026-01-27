@@ -3,9 +3,7 @@ img {
     border-radius: 100%;
     border: 3px solid black /* border color & thickness */
 }
-header{
-    background-color: aliceblue;
-
-    padding: 2px;
+body{
+    height: 100%;
 }
 

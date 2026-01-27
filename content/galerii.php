@@ -1,36 +1,27 @@
-<!DOCTYPE html>
-<html lang="et">
 <head>
-    <meta charset="UTF-8">
-    <title>Galerii</title>
-    <link rel="stylesheet" href="../style/galeriiStyle.css">
+    <link rel="stylesheet" href="style/galeriiStyle.css">
 </head>
-<header>
-    <h1>pildi galerii</h1>
-</header>
-<br>
 <form method="post" action="">
   <select name="pildid">
     <option value="">Vali pilt</option>
     <?php
-		$kataloog = '../image';
+		$kataloog = 'images';
 		$asukoht=opendir($kataloog);
 		while($rida = readdir($asukoht)){
 			if($rida!='.' && $rida!='..'){
 				echo "<option value='$rida'>$rida</option>n";
 			}
 		}
-
-
 	?>
   </select>
   <input type="submit" value="Vaata">
 </form>
 
+
 <?php
 if(!empty($_POST['pildid'])){
     $pilt = $_POST['pildid'];
-    $pildi_aadress = '../image/'.$pilt;
+    $pildi_aadress = 'images/'.$pilt;
     $pildi_andmed = getimagesize($pildi_aadress);
 
     $laius = $pildi_andmed[0];
@@ -63,3 +54,4 @@ if(!empty($_POST['pildid'])){
     echo "Kõrgus: $pisi_korgus<br>";
     echo "<img width='$pisi_laius' src='$pildi_aadress'><br>";
 }
+?>

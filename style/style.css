@@ -53,7 +53,7 @@ div.flex-container > div {
     margin: 10px;
     border: solid 1pt grey;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     flex: 1;
 }
 

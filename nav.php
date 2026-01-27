@@ -30,7 +30,5 @@
         <li>
             <a href="?leht=galerii.php">Galerii</a>
         </li>
-
-
     </ul>
 </nav>

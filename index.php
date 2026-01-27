@@ -15,6 +15,7 @@ include("header.php");
 //navigeerimis menüü
 include("nav.php");
 ?>
+
 <div class="flex-container">
     <div>
         <strong>PHP - </strong>
@@ -24,6 +25,7 @@ include("nav.php");
         nüüd PHP Group. PHP oli algselt lühend sõnadest Personal Home Page, kuid
         nüüd tähistab see rekursiivset taustanime PHP: Hypertext Preprocessor .
     </div>
+
     <div>
         <?php
         //sisu - laetakse content kaustast
@@ -34,6 +36,7 @@ include("nav.php");
         }
         ?>
     </div>
+
     <div>
     <img src="image/phpPilt.png" alt="PHP pilt">
     </div>
