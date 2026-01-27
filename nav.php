@@ -27,6 +27,9 @@
         <li>
             <a href="?leht=matemaatilisedFunktsioonid.php">Matemaatilised funktsioonid</a>
         </li>
+        <li>
+            <a href="?leht=galerii.php">Galerii</a>
+        </li>
 
 
     </ul>
